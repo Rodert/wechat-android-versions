@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>微信 Android 历史版本</title>
+  <style>
+    :root { color-scheme: light; --ink:#18212b; --muted:#66717f; --line:#dbe2e8; --paper:#fff; --canvas:#f5f7f8; --green:#07c160; --green-dark:#05984c; --blue:#1677c8; }
+    * { box-sizing:border-box; } body { margin:0; background:var(--canvas); color:var(--ink); font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif; }
+    header { background:var(--paper); border-bottom:1px solid var(--line); } .wrap { width:min(1080px,calc(100% - 32px)); margin:auto; }
+    .top { min-height:214px; padding:44px 0 34px; display:flex; align-items:end; justify-content:space-between; gap:24px; }
+    h1 { font-size:34px; letter-spacing:0; margin:0 0 10px; } .lead { color:var(--muted); margin:0; font-size:16px; }
+    .brand { width:54px; height:54px; border-radius:8px; background:var(--green); position:relative; flex:none; } .brand:before,.brand:after { content:""; position:absolute; background:white; border-radius:50%; } .brand:before { width:30px;height:23px;top:12px;left:8px; } .brand:after { width:22px;height:18px;right:7px;bottom:10px; }
+    nav { display:flex; gap:20px; padding:14px 0; border-top:1px solid var(--line); } a { color:var(--blue); text-decoration:none; } a:hover { text-decoration:underline; }
+    main { padding:30px 0 54px; } .stats { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin-bottom:26px; } .stat { background:var(--paper); border:1px solid var(--line); border-radius:6px; padding:15px 18px; } .stat small { color:var(--muted); display:block; } .stat strong { font-size:23px; }
+    .toolbar { display:flex; justify-content:space-between; align-items:center; margin:0 0 12px; } h2 { font-size:18px; margin:0; } .release { background:var(--paper); border:1px solid var(--line); border-radius:6px; margin-bottom:12px; overflow:hidden; }
+    .release-head { padding:16px 18px; display:flex; justify-content:space-between; align-items:center; gap:14px; border-bottom:1px solid var(--line); } .tag { font-weight:700; font-size:17px; } .latest { color:var(--green-dark); background:#e7f8ee; padding:2px 7px; border-radius:4px; font-size:12px; margin-left:8px; } time { color:var(--muted); font-size:13px; white-space:nowrap; }
+    .assets { padding:12px 18px; display:grid; gap:8px; } .asset { display:grid; grid-template-columns:1fr auto auto; gap:14px; align-items:center; padding:10px 0; border-bottom:1px solid #edf0f2; } .asset:last-child { border:0; } .name { overflow-wrap:anywhere; } .size { color:var(--muted); font-size:13px; } .download { border:1px solid var(--green); color:var(--green-dark); border-radius:4px; padding:5px 10px; font-size:13px; font-weight:600; } .download:hover { background:#effbf4; text-decoration:none; }
+    .empty { padding:44px; text-align:center; background:var(--paper); border:1px solid var(--line); border-radius:6px; color:var(--muted); } footer { color:var(--muted); font-size:13px; padding:22px 0 38px; border-top:1px solid var(--line); }
+    @media(max-width:600px) { .top { padding-top:30px; min-height:180px; align-items:start; } h1 { font-size:27px; } .stats { grid-template-columns:1fr; } .release-head { align-items:flex-start; flex-direction:column; } .asset { grid-template-columns:1fr auto; } .asset .size { grid-column:1; } }
+  </style>
+</head>
+<body>
+  <header><div class="wrap"><div class="top"><div><h1>微信 Android 历史版本</h1><p class="lead">来自微信官网的 APK 版本归档与校验信息</p></div><div class="brand" aria-hidden="true"></div></div><nav><a href="https://github.com/Rodert/wechat-android-versions/releases">Releases</a><a href="https://github.com/Rodert/wechat-win-versions">Windows</a><a href="https://github.com/Rodert/wechat-mac-versions">macOS</a></nav></div></header>
+  <main class="wrap"><section class="stats" id="stats" hidden><div class="stat"><small>已归档版本</small><strong id="versions-count">0</strong></div><div class="stat"><small>最新版本</small><strong id="latest-version">-</strong></div><div class="stat"><small>安装包数量</small><strong id="packages-count">0</strong></div></section><div class="toolbar"><h2>版本列表</h2><a href="https://github.com/Rodert/wechat-android-versions/releases">在 GitHub 查看</a></div><div id="releases" class="empty">正在加载版本数据...</div></main>
+  <footer><div class="wrap">安装包来自微信官网，本项目仅提供历史归档。请按设备架构选择 APK，并在安装前备份重要数据。</div></footer>
+  <script>
+    const size = b => b < 1024*1024 ? `${(b/1024).toFixed(1)} KB` : `${(b/1024/1024).toFixed(1)} MB`;
+    const esc = text => { const el=document.createElement('span'); el.textContent=text; return el.innerHTML; };
+    fetch('./releases.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error(`加载失败 (${r.status})`);return r.json()}).then(releases=>{
+      const holder=document.querySelector('#releases'); if(!releases.length){holder.textContent='尚未归档版本。首次自动任务运行后将在此显示。';return;}
+      document.querySelector('#stats').hidden=false; document.querySelector('#versions-count').textContent=releases.length; document.querySelector('#latest-version').textContent=releases[0].tag_name; document.querySelector('#packages-count').textContent=releases.reduce((n,r)=>n+r.assets.filter(a=>a.name.endsWith('.apk')).length,0);
+      holder.className=''; holder.innerHTML=releases.map((r,i)=>{ const apk=r.assets.filter(a=>a.name.endsWith('.apk')); const hashes=r.assets.filter(a=>a.name.endsWith('.sha256')); const assets=[...apk,...hashes]; return `<article class="release"><div class="release-head"><div><span class="tag">${esc(r.tag_name)}</span>${i===0?'<span class="latest">最新</span>':''}</div><time>${new Date(r.published_at).toLocaleString('zh-CN',{dateStyle:'medium',timeStyle:'short'})}</time></div><div class="assets">${assets.map(a=>`<div class="asset"><span class="name">${esc(a.name)}</span><span class="size">${size(a.size)}</span><a class="download" href="${a.browser_download_url}">下载</a></div>`).join('')||'<span class="size">此 Release 没有可下载文件</span>'}</div></article>`; }).join('');
+    }).catch(e=>{document.querySelector('#releases').textContent=e.message;});
+  </script>
+</body>
+</html>
