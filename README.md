@@ -4,8 +4,13 @@
 
 - [在线浏览及下载](https://rodert.github.io/wechat-android-versions/)
 - [Releases](https://github.com/Rodert/wechat-android-versions/releases)
+
+## 全平台版本仓库
+
+- [Android 微信历史版本](https://github.com/Rodert/wechat-android-versions)
 - [Windows 微信历史版本](https://github.com/Rodert/wechat-win-versions)
 - [macOS 微信历史版本](https://github.com/Rodert/wechat-mac-versions)
+- [Linux 微信历史版本](https://github.com/Rodert/wechat-linux-versions)
 
 ## 如何下载
 
