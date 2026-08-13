@@ -13,13 +13,13 @@ curl --fail --location --retry 3 --silent --show-error "$HOME_PAGE" -o "$SOURCE_
 
 # The official page embeds all currently supported Android APK URLs in its
 # Nuxt payload. Keep every distinct APK so users can choose their ABI.
-mapfile -t urls < <(rg -o 'https://[^" ]*/weixin[0-9]+android[^" ]*\.apk' "$SOURCE_PAGE" | awk '!seen[$0]++')
+mapfile -t urls < <(grep -oE 'https://[^" ]*/weixin[0-9]+android[^" ]*\.apk' "$SOURCE_PAGE" | awk '!seen[$0]++')
 if [ "${#urls[@]}" -eq 0 ]; then
   echo 'No Android APK URL found on the official download page.' >&2
   exit 1
 fi
 
-primary_url=$(printf '%s\n' "${urls[@]}" | rg '_arm64\.apk$' | head -n 1 || true)
+primary_url=$(printf '%s\n' "${urls[@]}" | grep -E '_arm64\.apk$' | head -n 1 || true)
 if [ -z "$primary_url" ]; then primary_url="${urls[0]}"; fi
 primary_name=${primary_url##*/}
 if [[ "$primary_name" =~ weixin([0-9]{4})android ]]; then
