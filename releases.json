@@ -982,7 +982,7 @@
         "state": "uploaded",
         "size": 109,
         "digest": "sha256:e808b900b038f52896e3504820967d31e3c3aeda551cbe24761b3bb687afa321",
-        "download_count": 0,
+        "download_count": 2,
         "created_at": "2026-08-13T14:19:31Z",
         "updated_at": "2026-08-13T14:19:31Z",
         "browser_download_url": "https://github.com/Rodert/wechat-android-versions/releases/download/v8.0.76/weixin8076android3141_0x28004c31_arm64.apk.sha256"
