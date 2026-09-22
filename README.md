@@ -35,4 +35,6 @@ GitHub Actions 每天从微信官网读取 Android 下载配置，下载可用�
 └── README.md
 ```
 
+- [科学上网工具还不错](https://tinyurl.com/network-saku)
+
 各版本更新日志请参考微信官网。[问题或侵权反馈](https://github.com/Rodert/wechat-android-versions/issues)请通过 Issue 提交。
