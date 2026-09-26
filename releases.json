@@ -730,7 +730,7 @@
         "state": "uploaded",
         "size": 230383783,
         "digest": "sha256:152579fc4e4f2dad4aadfa14bb9e4182521455dd54caf44c9da1e784e77c8c70",
-        "download_count": 2,
+        "download_count": 3,
         "created_at": "2026-08-24T08:01:20Z",
         "updated_at": "2026-08-24T08:01:30Z",
         "browser_download_url": "https://github.com/Rodert/wechat-android-versions/releases/download/v8.0.77_20260824/weixin8034android2340_1.apk"
