@@ -68,7 +68,7 @@
         "state": "uploaded",
         "size": 230383783,
         "digest": "sha256:152579fc4e4f2dad4aadfa14bb9e4182521455dd54caf44c9da1e784e77c8c70",
-        "download_count": 10,
+        "download_count": 11,
         "created_at": "2026-09-14T13:50:27Z",
         "updated_at": "2026-09-14T13:50:38Z",
         "browser_download_url": "https://github.com/Rodert/wechat-android-versions/releases/download/v8.0.78_20260914/weixin8034android2340_1.apk"
@@ -104,7 +104,7 @@
         "state": "uploaded",
         "size": 94,
         "digest": "sha256:a33c6ba64d5501bac735935b1c06a2621b9a3c863eab10c34b58f5b8e7c9b46d",
-        "download_count": 0,
+        "download_count": 1,
         "created_at": "2026-09-14T13:50:27Z",
         "updated_at": "2026-09-14T13:50:28Z",
         "browser_download_url": "https://github.com/Rodert/wechat-android-versions/releases/download/v8.0.78_20260914/weixin8034android2340_1.apk.sha256"
@@ -140,7 +140,7 @@
         "state": "uploaded",
         "size": 249233271,
         "digest": "sha256:3a46f21117b35fad2c932d97b1e1a025bd278e52b1a4c138982b2f3a92c2d7d4",
-        "download_count": 9,
+        "download_count": 10,
         "created_at": "2026-09-14T13:50:26Z",
         "updated_at": "2026-09-14T13:50:45Z",
         "browser_download_url": "https://github.com/Rodert/wechat-android-versions/releases/download/v8.0.78_20260914/weixin8034android2340_arm64_1.apk"
@@ -212,7 +212,7 @@
         "state": "uploaded",
         "size": 242110138,
         "digest": "sha256:c5e01d8fd9786d153ec4bfaef6ab28d1a754e299506bf74033c790b694333d18",
-        "download_count": 5,
+        "download_count": 6,
         "created_at": "2026-09-14T13:50:26Z",
         "updated_at": "2026-09-14T13:50:45Z",
         "browser_download_url": "https://github.com/Rodert/wechat-android-versions/releases/download/v8.0.78_20260914/weixin8042android2460.apk"
@@ -284,7 +284,7 @@
         "state": "uploaded",
         "size": 280614450,
         "digest": "sha256:41f7dc1f720767fa78fa20dd13ea034b817bbf6ebd23dfd1324c647499c9c1ba",
-        "download_count": 4,
+        "download_count": 5,
         "created_at": "2026-09-14T13:50:26Z",
         "updated_at": "2026-09-14T13:50:48Z",
         "browser_download_url": "https://github.com/Rodert/wechat-android-versions/releases/download/v8.0.78_20260914/weixin8078android3180_0x28004e32_arm64.apk"
@@ -320,7 +320,7 @@
         "state": "uploaded",
         "size": 109,
         "digest": "sha256:2d2a763ae7a08819de82561dfd451ce5ba81b7f694b7673b68bb36da615a4b83",
-        "download_count": 0,
+        "download_count": 1,
         "created_at": "2026-09-14T13:50:26Z",
         "updated_at": "2026-09-14T13:50:27Z",
         "browser_download_url": "https://github.com/Rodert/wechat-android-versions/releases/download/v8.0.78_20260914/weixin8078android3180_0x28004e32_arm64.apk.sha256"
@@ -399,7 +399,7 @@
         "state": "uploaded",
         "size": 230383783,
         "digest": "sha256:152579fc4e4f2dad4aadfa14bb9e4182521455dd54caf44c9da1e784e77c8c70",
-        "download_count": 9,
+        "download_count": 10,
         "created_at": "2026-09-10T12:10:35Z",
         "updated_at": "2026-09-10T12:10:43Z",
         "browser_download_url": "https://github.com/Rodert/wechat-android-versions/releases/download/v8.0.78/weixin8034android2340_1.apk"
@@ -435,7 +435,7 @@
         "state": "uploaded",
         "size": 94,
         "digest": "sha256:a33c6ba64d5501bac735935b1c06a2621b9a3c863eab10c34b58f5b8e7c9b46d",
-        "download_count": 0,
+        "download_count": 1,
         "created_at": "2026-09-10T12:10:35Z",
         "updated_at": "2026-09-10T12:10:35Z",
         "browser_download_url": "https://github.com/Rodert/wechat-android-versions/releases/download/v8.0.78/weixin8034android2340_1.apk.sha256"
@@ -507,7 +507,7 @@
         "state": "uploaded",
         "size": 100,
         "digest": "sha256:08e9bf3b674732dcbc4c57c4786b79a684d55d970983ae4d39ea5eb4989811a5",
-        "download_count": 0,
+        "download_count": 1,
         "created_at": "2026-09-10T12:10:35Z",
         "updated_at": "2026-09-10T12:10:35Z",
         "browser_download_url": "https://github.com/Rodert/wechat-android-versions/releases/download/v8.0.78/weixin8034android2340_arm64_1.apk.sha256"
@@ -543,7 +543,7 @@
         "state": "uploaded",
         "size": 242110138,
         "digest": "sha256:c5e01d8fd9786d153ec4bfaef6ab28d1a754e299506bf74033c790b694333d18",
-        "download_count": 3,
+        "download_count": 4,
         "created_at": "2026-09-10T12:10:34Z",
         "updated_at": "2026-09-10T12:10:46Z",
         "browser_download_url": "https://github.com/Rodert/wechat-android-versions/releases/download/v8.0.78/weixin8042android2460.apk"
@@ -615,7 +615,7 @@
         "state": "uploaded",
         "size": 280302239,
         "digest": "sha256:ff507d8ca93d735342a5e29d374beadce166e1c3cba8302f655f0c194331fb3b",
-        "download_count": 1,
+        "download_count": 2,
         "created_at": "2026-09-10T12:10:34Z",
         "updated_at": "2026-09-10T12:10:47Z",
         "browser_download_url": "https://github.com/Rodert/wechat-android-versions/releases/download/v8.0.78/weixin8078android3180_0x28004e30_arm64.apk"
@@ -651,7 +651,7 @@
         "state": "uploaded",
         "size": 109,
         "digest": "sha256:2bfe3a9fe18ae11ebfb660c0dedb66f523ae5d57d86b73f95582c09f26c0ef3f",
-        "download_count": 0,
+        "download_count": 1,
         "created_at": "2026-09-10T12:10:34Z",
         "updated_at": "2026-09-10T12:10:35Z",
         "browser_download_url": "https://github.com/Rodert/wechat-android-versions/releases/download/v8.0.78/weixin8078android3180_0x28004e30_arm64.apk.sha256"
@@ -730,7 +730,7 @@
         "state": "uploaded",
         "size": 230383783,
         "digest": "sha256:152579fc4e4f2dad4aadfa14bb9e4182521455dd54caf44c9da1e784e77c8c70",
-        "download_count": 10,
+        "download_count": 11,
         "created_at": "2026-08-24T08:01:20Z",
         "updated_at": "2026-08-24T08:01:30Z",
         "browser_download_url": "https://github.com/Rodert/wechat-android-versions/releases/download/v8.0.77_20260824/weixin8034android2340_1.apk"
@@ -766,7 +766,7 @@
         "state": "uploaded",
         "size": 94,
         "digest": "sha256:a33c6ba64d5501bac735935b1c06a2621b9a3c863eab10c34b58f5b8e7c9b46d",
-        "download_count": 0,
+        "download_count": 1,
         "created_at": "2026-08-24T08:01:20Z",
         "updated_at": "2026-08-24T08:01:21Z",
         "browser_download_url": "https://github.com/Rodert/wechat-android-versions/releases/download/v8.0.77_20260824/weixin8034android2340_1.apk.sha256"
@@ -802,7 +802,7 @@
         "state": "uploaded",
         "size": 249233271,
         "digest": "sha256:3a46f21117b35fad2c932d97b1e1a025bd278e52b1a4c138982b2f3a92c2d7d4",
-        "download_count": 2,
+        "download_count": 3,
         "created_at": "2026-08-24T08:01:20Z",
         "updated_at": "2026-08-24T08:01:37Z",
         "browser_download_url": "https://github.com/Rodert/wechat-android-versions/releases/download/v8.0.77_20260824/weixin8034android2340_arm64_1.apk"
@@ -838,7 +838,7 @@
         "state": "uploaded",
         "size": 100,
         "digest": "sha256:08e9bf3b674732dcbc4c57c4786b79a684d55d970983ae4d39ea5eb4989811a5",
-        "download_count": 1,
+        "download_count": 2,
         "created_at": "2026-08-24T08:01:20Z",
         "updated_at": "2026-08-24T08:01:20Z",
         "browser_download_url": "https://github.com/Rodert/wechat-android-versions/releases/download/v8.0.77_20260824/weixin8034android2340_arm64_1.apk.sha256"
@@ -874,7 +874,7 @@
         "state": "uploaded",
         "size": 242110138,
         "digest": "sha256:c5e01d8fd9786d153ec4bfaef6ab28d1a754e299506bf74033c790b694333d18",
-        "download_count": 11,
+        "download_count": 12,
         "created_at": "2026-08-24T08:01:19Z",
         "updated_at": "2026-08-24T08:01:35Z",
         "browser_download_url": "https://github.com/Rodert/wechat-android-versions/releases/download/v8.0.77_20260824/weixin8042android2460.apk"
@@ -910,7 +910,7 @@
         "state": "uploaded",
         "size": 92,
         "digest": "sha256:8ba6ca8926ec4f55460752a8d43996a59c863cc2010aedd4c896d58938174328",
-        "download_count": 0,
+        "download_count": 1,
         "created_at": "2026-08-24T08:01:19Z",
         "updated_at": "2026-08-24T08:01:20Z",
         "browser_download_url": "https://github.com/Rodert/wechat-android-versions/releases/download/v8.0.77_20260824/weixin8042android2460.apk.sha256"
@@ -946,7 +946,7 @@
         "state": "uploaded",
         "size": 278623416,
         "digest": "sha256:18714afe662d2ca58e8e9389ad727c9ff562ed8f3711a93c904819bb753215d2",
-        "download_count": 2,
+        "download_count": 3,
         "created_at": "2026-08-24T08:01:19Z",
         "updated_at": "2026-08-24T08:01:36Z",
         "browser_download_url": "https://github.com/Rodert/wechat-android-versions/releases/download/v8.0.77_20260824/weixin8077android3160_0x28004d30_arm64_1.apk"
@@ -982,7 +982,7 @@
         "state": "uploaded",
         "size": 111,
         "digest": "sha256:84585d848f8df47ab05b70a8c0bf0a38676e223dda494b4c142d43637e357f1f",
-        "download_count": 0,
+        "download_count": 1,
         "created_at": "2026-08-24T08:01:19Z",
         "updated_at": "2026-08-24T08:01:20Z",
         "browser_download_url": "https://github.com/Rodert/wechat-android-versions/releases/download/v8.0.77_20260824/weixin8077android3160_0x28004d30_arm64_1.apk.sha256"
@@ -1061,7 +1061,7 @@
         "state": "uploaded",
         "size": 230383783,
         "digest": "sha256:152579fc4e4f2dad4aadfa14bb9e4182521455dd54caf44c9da1e784e77c8c70",
-        "download_count": 3,
+        "download_count": 4,
         "created_at": "2026-08-22T07:37:42Z",
         "updated_at": "2026-08-22T07:37:54Z",
         "browser_download_url": "https://github.com/Rodert/wechat-android-versions/releases/download/v8.0.77/weixin8034android2340_1.apk"
@@ -1097,7 +1097,7 @@
         "state": "uploaded",
         "size": 94,
         "digest": "sha256:a33c6ba64d5501bac735935b1c06a2621b9a3c863eab10c34b58f5b8e7c9b46d",
-        "download_count": 0,
+        "download_count": 1,
         "created_at": "2026-08-22T07:37:42Z",
         "updated_at": "2026-08-22T07:37:42Z",
         "browser_download_url": "https://github.com/Rodert/wechat-android-versions/releases/download/v8.0.77/weixin8034android2340_1.apk.sha256"
@@ -1169,7 +1169,7 @@
         "state": "uploaded",
         "size": 100,
         "digest": "sha256:08e9bf3b674732dcbc4c57c4786b79a684d55d970983ae4d39ea5eb4989811a5",
-        "download_count": 0,
+        "download_count": 1,
         "created_at": "2026-08-22T07:37:41Z",
         "updated_at": "2026-08-22T07:37:41Z",
         "browser_download_url": "https://github.com/Rodert/wechat-android-versions/releases/download/v8.0.77/weixin8034android2340_arm64_1.apk.sha256"
@@ -1205,7 +1205,7 @@
         "state": "uploaded",
         "size": 242110138,
         "digest": "sha256:c5e01d8fd9786d153ec4bfaef6ab28d1a754e299506bf74033c790b694333d18",
-        "download_count": 11,
+        "download_count": 12,
         "created_at": "2026-08-22T07:37:41Z",
         "updated_at": "2026-08-22T07:38:00Z",
         "browser_download_url": "https://github.com/Rodert/wechat-android-versions/releases/download/v8.0.77/weixin8042android2460.apk"
@@ -1277,7 +1277,7 @@
         "state": "uploaded",
         "size": 278625648,
         "digest": "sha256:25a749fb18175a3b2a735621665d9a24fa527f08955b3e1c6fe05b67620b67ea",
-        "download_count": 2,
+        "download_count": 3,
         "created_at": "2026-08-22T07:37:41Z",
         "updated_at": "2026-08-22T07:38:00Z",
         "browser_download_url": "https://github.com/Rodert/wechat-android-versions/releases/download/v8.0.77/weixin8077android3160_0x28004d30_arm64.apk"
@@ -1313,7 +1313,7 @@
         "state": "uploaded",
         "size": 109,
         "digest": "sha256:05aaf1b006748a399641c69614f549c9c2462e483437e9d3504fd6336f8dd748",
-        "download_count": 0,
+        "download_count": 1,
         "created_at": "2026-08-22T07:37:41Z",
         "updated_at": "2026-08-22T07:37:41Z",
         "browser_download_url": "https://github.com/Rodert/wechat-android-versions/releases/download/v8.0.77/weixin8077android3160_0x28004d30_arm64.apk.sha256"
@@ -1464,7 +1464,7 @@
         "state": "uploaded",
         "size": 249233271,
         "digest": "sha256:3a46f21117b35fad2c932d97b1e1a025bd278e52b1a4c138982b2f3a92c2d7d4",
-        "download_count": 7,
+        "download_count": 9,
         "created_at": "2026-08-13T14:19:31Z",
         "updated_at": "2026-08-13T14:19:57Z",
         "browser_download_url": "https://github.com/Rodert/wechat-android-versions/releases/download/v8.0.76/weixin8034android2340_arm64_1.apk"
